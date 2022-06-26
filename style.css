@@ -1,0 +1,51 @@
+html {
+    background-color: bisque;
+}
+
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+
+}
+
+body {
+    min-height: 100vh;
+}
+
+
+
+
+.list a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1vw;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul .guidance-list{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items:center;
+}
